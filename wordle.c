@@ -86,7 +86,7 @@ int main(int argc, string argv[])
         int status[wordsize];
 
         // set all elements of status array initially to 0, aka WRONG
-        // TODO #4
+     
         for (int k = 0; k < wordsize; k++)
         {
             status[k] = WRONG;
@@ -108,9 +108,6 @@ int main(int argc, string argv[])
     }
 
     // Print the game's result
-    // TODO #7
-
-    // that's all folks!
     return 0;
 }
 
@@ -119,7 +116,6 @@ string get_guess(int wordsize)
     string guess = "";
 
     // ensure users actually provide a guess that is the correct length
-    // TODO #3
     do
     {
         printf("Input a %d-letter word: ", wordsize);
@@ -164,7 +160,6 @@ int check_word(string guess, int wordsize, int status[], string choice)
 void print_word(string guess, int wordsize, int status[])
 {
     // print word character-for-character with correct color coding, then reset terminal font to normal
-    // TODO #6
     for (int i = 0; i < wordsize; i++)
     {
         if (status[i] == 2)
