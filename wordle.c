@@ -1,4 +1,4 @@
-#include <cs50.h>
+#include <cs50.h>// this is a lib from cs50 i used as it simplified some things lines of code that helped greatly.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
